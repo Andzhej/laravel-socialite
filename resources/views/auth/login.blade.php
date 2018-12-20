@@ -77,7 +77,7 @@
     
                     <div class="card-body">
                         <a href="login/github" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
-                        <a href="" class="btn btn-primary"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        <a href="login/facebook" class="btn btn-primary"><i class="fab fa-facebook-f"></i> Facebook</a>
                     </div>
                 </div>
             </div>

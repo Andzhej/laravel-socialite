@@ -57,6 +57,7 @@ class LoginController extends Controller
      */
     public function handleProviderCallback($provider)
     {
+        return $provider;
         if($provider == 'github') {
             $gitHubUser = Socialite::driver('github')->user();
 
