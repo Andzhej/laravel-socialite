@@ -45,9 +45,9 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function redirectToProvider()
+    public function redirectToProvider($provider)
     {
-        return Socialite::driver('github')->redirect();
+        return Socialite::driver($provider)->redirect();
     }
 
     /**
@@ -55,13 +55,15 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function handleProviderCallback()
+    public function handleProviderCallback($provider)
     {
-        $gitHubUser = Socialite::driver('github')->user();
-        
-        //check if user exists
-        $user = User::where('github_id', $gitHubUser->getId())->first();
+        if($provider == 'github') {
+            $gitHubUser = Socialite::driver('github')->user();
 
+            //check if user exists
+            $user = User::where('github_id', $gitHubUser->getId())->first();
+        }
+        
         if(!$user) {
         //add user
             $user = User::create([

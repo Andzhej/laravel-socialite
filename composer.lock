@@ -899,16 +899,16 @@
         },
         {
             "name": "laravel/socialite",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/socialite.git",
-                "reference": "ecc3ccfdcbbcee9e19468539985f0d0fddd4dbde"
+                "reference": "ad71c2691b04d843e24608ca13d9e004a34907d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/socialite/zipball/ecc3ccfdcbbcee9e19468539985f0d0fddd4dbde",
-                "reference": "ecc3ccfdcbbcee9e19468539985f0d0fddd4dbde",
+                "url": "https://api.github.com/repos/laravel/socialite/zipball/ad71c2691b04d843e24608ca13d9e004a34907d0",
+                "reference": "ad71c2691b04d843e24608ca13d9e004a34907d0",
                 "shasum": ""
             },
             "require": {
@@ -959,7 +959,7 @@
                 "laravel",
                 "oauth"
             ],
-            "time": "2018-12-18T13:42:49+00:00"
+            "time": "2018-12-20T11:14:43+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -1367,16 +1367,16 @@
         },
         {
             "name": "nexmo/client",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nexmo/nexmo-php.git",
-                "reference": "f192c84ec3cc3e2657fc754e0da1a17e39ac5542"
+                "reference": "01809cc1e17a5af275913c49bb5d444eb6cc06d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nexmo/nexmo-php/zipball/f192c84ec3cc3e2657fc754e0da1a17e39ac5542",
-                "reference": "f192c84ec3cc3e2657fc754e0da1a17e39ac5542",
+                "url": "https://api.github.com/repos/Nexmo/nexmo-php/zipball/01809cc1e17a5af275913c49bb5d444eb6cc06d4",
+                "reference": "01809cc1e17a5af275913c49bb5d444eb6cc06d4",
                 "shasum": ""
             },
             "require": {
@@ -1411,7 +1411,7 @@
                 }
             ],
             "description": "PHP Client for using Nexmo's API.",
-            "time": "2018-11-14T14:12:22+00:00"
+            "time": "2018-12-17T10:47:50+00:00"
         },
         {
             "name": "nikic/php-parser",
